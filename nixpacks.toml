@@ -6,9 +6,3 @@ cmds = ["echo done"]
 
 [start]
 cmd = "npm start"
-
-[phases.setup]
-nixPkgs = ["nodejs_20"]
-
-[start]
-cmd = "node AETHON-server.js"
