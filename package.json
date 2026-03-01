@@ -1,0 +1,17 @@
+{
+  "name": "aethon",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node AETHON-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ws": "^8.14.2",
+    "uuid": "^9.0.0",
+    "@google/generative-ai": "^0.2.1",
+    "openai": "^4.24.1",
+    "@anthropic-ai/sdk": "^0.17.1"
+  }
+}
